@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E59273462134A631004326A0 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59273452134A631004326A0 /* PlayerViewController.swift */; };
+		E59B25BE213DAAA100DBA554 /* popcorn-Te_Equivocas_si_no_Crees.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E59B25BC213DAAA100DBA554 /* popcorn-Te_Equivocas_si_no_Crees.jpg */; };
+		E59B25BF213DAAA100DBA554 /* popcorn-Te_Equivocas_si_no_Crees.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E59B25BD213DAAA100DBA554 /* popcorn-Te_Equivocas_si_no_Crees.mp3 */; };
+		E59B25C2213DBEF900DBA554 /* El sin sentido-Perdiendo el control.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E59B25C0213DBEF900DBA554 /* El sin sentido-Perdiendo el control.jpg */; };
+		E59B25C3213DBEF900DBA554 /* El sin sentido-Perdiendo el control.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E59B25C1213DBEF900DBA554 /* El sin sentido-Perdiendo el control.mp3 */; };
+		E59B25C6213DC07700DBA554 /* Andres Cepeda FT Cali y El Dande, Te voy amar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E59B25C4213DC07600DBA554 /* Andres Cepeda FT Cali y El Dande, Te voy amar.mp3 */; };
+		E59B25C7213DC07700DBA554 /* Andres Cepeda FT Cali y El Dande, Te voy amar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E59B25C5213DC07600DBA554 /* Andres Cepeda FT Cali y El Dande, Te voy amar.jpg */; };
+		E59B25CA213DC30000DBA554 /* FANTASIA DEARLYS.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E59B25C8213DC30000DBA554 /* FANTASIA DEARLYS.jpeg */; };
+		E59B25CB213DC30000DBA554 /* FANTASIA DEARLYS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E59B25C9213DC30000DBA554 /* FANTASIA DEARLYS.mp3 */; };
+		E59B25CE213DC34C00DBA554 /* Cali Y El Dandee Sirena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E59B25CC213DC34C00DBA554 /* Cali Y El Dandee Sirena.mp3 */; };
+		E59B25CF213DC34C00DBA554 /* Cali Y El Dandee Sirena.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E59B25CD213DC34C00DBA554 /* Cali Y El Dandee Sirena.jpeg */; };
 		E5BD1063213471A0002B7116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD1062213471A0002B7116 /* AppDelegate.swift */; };
 		E5BD1065213471A0002B7116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD1064213471A0002B7116 /* ViewController.swift */; };
 		E5BD1068213471A0002B7116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BD1066213471A0002B7116 /* Main.storyboard */; };
@@ -15,6 +26,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E59273452134A631004326A0 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		E59B25BC213DAAA100DBA554 /* popcorn-Te_Equivocas_si_no_Crees.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "popcorn-Te_Equivocas_si_no_Crees.jpg"; sourceTree = "<group>"; };
+		E59B25BD213DAAA100DBA554 /* popcorn-Te_Equivocas_si_no_Crees.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "popcorn-Te_Equivocas_si_no_Crees.mp3"; sourceTree = "<group>"; };
+		E59B25C0213DBEF900DBA554 /* El sin sentido-Perdiendo el control.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "El sin sentido-Perdiendo el control.jpg"; sourceTree = "<group>"; };
+		E59B25C1213DBEF900DBA554 /* El sin sentido-Perdiendo el control.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "El sin sentido-Perdiendo el control.mp3"; sourceTree = "<group>"; };
+		E59B25C4213DC07600DBA554 /* Andres Cepeda FT Cali y El Dande, Te voy amar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Andres Cepeda FT Cali y El Dande, Te voy amar.mp3"; sourceTree = "<group>"; };
+		E59B25C5213DC07600DBA554 /* Andres Cepeda FT Cali y El Dande, Te voy amar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andres Cepeda FT Cali y El Dande, Te voy amar.jpg"; sourceTree = "<group>"; };
+		E59B25C8213DC30000DBA554 /* FANTASIA DEARLYS.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "FANTASIA DEARLYS.jpeg"; sourceTree = "<group>"; };
+		E59B25C9213DC30000DBA554 /* FANTASIA DEARLYS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FANTASIA DEARLYS.mp3"; sourceTree = "<group>"; };
+		E59B25CC213DC34C00DBA554 /* Cali Y El Dandee Sirena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cali Y El Dandee Sirena.mp3"; sourceTree = "<group>"; };
+		E59B25CD213DC34C00DBA554 /* Cali Y El Dandee Sirena.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cali Y El Dandee Sirena.jpeg"; sourceTree = "<group>"; };
 		E5BD105F213471A0002B7116 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD1062213471A0002B7116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BD1064213471A0002B7116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +76,23 @@
 		E5BD1061213471A0002B7116 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				E59B25CD213DC34C00DBA554 /* Cali Y El Dandee Sirena.jpeg */,
+				E59B25CC213DC34C00DBA554 /* Cali Y El Dandee Sirena.mp3 */,
+				E59B25C8213DC30000DBA554 /* FANTASIA DEARLYS.jpeg */,
+				E59B25C9213DC30000DBA554 /* FANTASIA DEARLYS.mp3 */,
+				E59B25C5213DC07600DBA554 /* Andres Cepeda FT Cali y El Dande, Te voy amar.jpg */,
+				E59B25C4213DC07600DBA554 /* Andres Cepeda FT Cali y El Dande, Te voy amar.mp3 */,
+				E59B25C0213DBEF900DBA554 /* El sin sentido-Perdiendo el control.jpg */,
+				E59B25C1213DBEF900DBA554 /* El sin sentido-Perdiendo el control.mp3 */,
+				E59B25BC213DAAA100DBA554 /* popcorn-Te_Equivocas_si_no_Crees.jpg */,
+				E59B25BD213DAAA100DBA554 /* popcorn-Te_Equivocas_si_no_Crees.mp3 */,
 				E5BD1062213471A0002B7116 /* AppDelegate.swift */,
 				E5BD1064213471A0002B7116 /* ViewController.swift */,
 				E5BD1066213471A0002B7116 /* Main.storyboard */,
 				E5BD1069213471A1002B7116 /* Assets.xcassets */,
 				E5BD106B213471A1002B7116 /* LaunchScreen.storyboard */,
 				E5BD106E213471A1002B7116 /* Info.plist */,
+				E59273452134A631004326A0 /* PlayerViewController.swift */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -123,7 +156,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5BD106D213471A1002B7116 /* LaunchScreen.storyboard in Resources */,
+				E59B25C7213DC07700DBA554 /* Andres Cepeda FT Cali y El Dande, Te voy amar.jpg in Resources */,
+				E59B25CB213DC30000DBA554 /* FANTASIA DEARLYS.mp3 in Resources */,
+				E59B25BE213DAAA100DBA554 /* popcorn-Te_Equivocas_si_no_Crees.jpg in Resources */,
+				E59B25BF213DAAA100DBA554 /* popcorn-Te_Equivocas_si_no_Crees.mp3 in Resources */,
+				E59B25C6213DC07700DBA554 /* Andres Cepeda FT Cali y El Dande, Te voy amar.mp3 in Resources */,
 				E5BD106A213471A1002B7116 /* Assets.xcassets in Resources */,
+				E59B25CE213DC34C00DBA554 /* Cali Y El Dandee Sirena.mp3 in Resources */,
+				E59B25C3213DBEF900DBA554 /* El sin sentido-Perdiendo el control.mp3 in Resources */,
+				E59B25C2213DBEF900DBA554 /* El sin sentido-Perdiendo el control.jpg in Resources */,
+				E59B25CF213DC34C00DBA554 /* Cali Y El Dandee Sirena.jpeg in Resources */,
+				E59B25CA213DC30000DBA554 /* FANTASIA DEARLYS.jpeg in Resources */,
 				E5BD1068213471A0002B7116 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +180,7 @@
 			files = (
 				E5BD1065213471A0002B7116 /* ViewController.swift in Sources */,
 				E5BD1063213471A0002B7116 /* AppDelegate.swift in Sources */,
+				E59273462134A631004326A0 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

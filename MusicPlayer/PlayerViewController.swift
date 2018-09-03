@@ -7,18 +7,36 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PlayerViewController: UIViewController {
-
+    
+    private var reproductor : AVAudioPlayer!
+    var songName = ""
+    var songExt = ""
+    var imageName = ""
+    var imageExt = ""
+    
+    @IBOutlet weak var volumenSlider: UISlider!
+    @IBOutlet weak var image: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        image.image = UIImage(named: imageName)
+        
+        
+        let songPath = Bundle.main.path(forResource: songName, ofType: songExt)
+        let url = URL(fileURLWithPath: songPath!)
+        
+        do {
+            try reproductor = AVAudioPlayer(contentsOf: url)
+            reproductor.play()
+        } catch {
+            print("Error song")
+        }
+        
+        volumenSlider.value = reproductor.volume
         // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
 
@@ -32,4 +50,26 @@ class PlayerViewController: UIViewController {
     }
     */
 
+    @IBAction func stop() {
+        if reproductor.isPlaying {
+            reproductor.stop()
+            reproductor.currentTime = 0.0
+        }
+    }
+    @IBAction func pause() {
+        if reproductor.isPlaying {
+            reproductor.pause()
+        }
+    }
+    @IBAction func play() {
+        if !reproductor.isPlaying {
+            reproductor.play()
+        }
+        
+    }
+    @IBAction func volumenAction(_ sender: UISlider) {
+        print(String(sender.value))
+        reproductor.setVolume(sender.value, fadeDuration: 0)
+    }
+    
 }
